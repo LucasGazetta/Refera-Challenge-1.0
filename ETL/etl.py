@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 # Configurações da conexão com o banco de dados transacional
 db_transactional = {
     'host': 'localhost',
-    'port': '5433',
+    'port': '5432',
     'database': 'dvdrental',
     'user': 'postgres',
     'password': 'password'
